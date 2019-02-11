@@ -5,7 +5,7 @@ int ok=0;
 int main()
 {
 
-    cout <<"wprowadz slowo"<<endl;
+    cout <<"write word"<<endl;
     cin>>wyraz;
     int n = wyraz.length();
     for (int i=0; i<n/2; i++) {
@@ -14,9 +14,9 @@ int main()
       }
     }
     if(ok==n/2){
-        cout <<"TAK"<<endl;
+        cout <<"Yes"<<endl;
     }else{
-        cout <<"NIE"<<endl;
+        cout <<"No"<<endl;
     }
     return 0;
 }
